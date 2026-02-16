@@ -1,0 +1,57 @@
+@import '../../styles/variables.less';
+
+.container {
+  padding: @spacing-lg;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: @font-family-base;
+}
+
+.heading {
+  font-size: @font-size-lg;
+  margin-bottom: @spacing-md;
+  color: @color-primary;
+}
+
+.inputGroup {
+  display: flex;
+  gap: @spacing-sm;
+  margin-bottom: @spacing-md;
+}
+
+.input {
+  flex-grow: 1;
+  padding: @spacing-sm;
+  font-size: @font-size-base;
+  border: 1px solid @border-color;
+  border-radius: @border-radius-sm;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: @spacing-sm @spacing-md;
+  border-bottom: 1px solid @border-color;
+}
+
+.taskText {
+  font-size: @font-size-base;
+  color: @text-color;
+}
+
+.status {
+  font-style: italic;
+  color: @color-info;
+}
+
+.actions {
+  display: flex;
+  gap: @spacing-xs;
+}
